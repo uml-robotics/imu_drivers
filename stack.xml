@@ -1,0 +1,13 @@
+<stack name="imu_drivers" version="0.1.0">
+  <description brief="Drivers for IMUs">
+  This stack contains drivers for IMUs.
+  </description>
+  <author>Blaise Gassend</author>
+  <license>BSD,LGPL</license>  
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/imu_drivers</url>
+  <depend stack="geometry"/> <!-- tf -->
+  <depend stack="diagnostics"/> <!-- self_test, diagnostic_updater -->
+  <depend stack="ros"/> <!-- rosconsole, std_srvs, roscpp -->
+  <depend stack="common_msgs"/> <!-- sensor_msgs -->
+</stack>
