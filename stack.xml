@@ -1,10 +1,10 @@
 <stack>
   <description brief="Drivers for IMUs">
-    This stack contains drivers for Inertial Measurement Units (MU). 
+    A stack for any drivers relating to Inertial Measurement Units (IMU).
   </description>
   <author>Blaise Gassend</author>
   <license>LGPL</license>  
-  <review status="unreviewed" notes=""/>
+  <review status="Doc Reviewed" notes="Jan 14 2010"/>
   <url>http://ros.org/wiki/imu_drivers</url>
   <depend stack="common_msgs" /> <!-- sensor_msgs -->
   <depend stack="diagnostics" /> <!-- self_test, diagnostic_updater -->
