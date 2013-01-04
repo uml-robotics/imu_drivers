@@ -1,12 +1,15 @@
 # Build files
+get_id
+imu_node
 msg_gen/
 srv_gen/
-**/src/*/msg/
-**/src/*/srv/
-**/src/*msgs
-**/**/src/*/msg/
-**/**/src/*/srv/
-**/**/src/*msgs
+**/src/**/msg/
+**/src/**/srv/
+**/src/**/msgs
+**/src/**/__init__.py
+**/**/src/**/msg/
+**/**/src/**/srv/
+**/**/src/**msgs
 build/
 doc/
 bin/
