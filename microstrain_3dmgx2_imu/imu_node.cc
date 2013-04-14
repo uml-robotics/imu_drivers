@@ -456,7 +456,8 @@ public:
     
     tf::quaternionTFToMsg(quat, data.orientation);
       
-    data.header.stamp = ros::Time::now().fromNSec(time);
+    //data.header.stamp = ros::Time::now().fromNSec(time);
+    data.header.stamp = ros::Time::now(); // fix from http://answers.ros.org/question/42258/3dm-gx3-25-throws-stdruntime_error-time-is-out-of-dual-32-bit-range-on-ros-fuerteubuntu-precise/
   }
 
 
